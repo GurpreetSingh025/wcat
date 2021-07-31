@@ -52,9 +52,9 @@ let input = process.argv.slice(2);
 
                 if(operation=='-b' && bool==false){
                     console.log("\n -b opration activated \n");
-                let ans =  bOperation();
-                console.log(ans);
-                bool=true;
+                  let ans =  bOperation();
+                  console.log(ans);
+                   bool=true;
                 }
 
                 if(operation=='-n' && bool==false){
@@ -80,7 +80,7 @@ let input = process.argv.slice(2);
            let str = content.split("\n");
            let ans = '';
             for(let i=0 ; i<str.length ; i++){
-               ans+= i + " " + str[i]+"\n";   
+               ans+= i+1 + " " + str[i]+"\n";   
             }
             return ans;
        }

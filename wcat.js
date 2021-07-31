@@ -76,7 +76,7 @@ let input = process.argv.slice(2);
            return ans;
        }
 
-       function bOperation(){
+       function nOperation(){
            let str = content.split("\n");
            let ans = '';
             for(let i=0 ; i<str.length ; i++){
@@ -85,7 +85,7 @@ let input = process.argv.slice(2);
             return ans;
        }
 
-       function nOperation(){
+       function bOperation(){
             let str = content.split("\r\n");
             let ans = '';
              for(let i=0 ; i<str.length ; i++){

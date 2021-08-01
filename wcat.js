@@ -88,9 +88,11 @@ let input = process.argv.slice(2);
        function bOperation(){
             let str = content.split("\r\n");
             let ans = '';
+            let temp = 1;
              for(let i=0 ; i<str.length ; i++){
                  if(str[i]!=''){
-                     ans+= i+1 +" " + str[i] + "\n\n";
+                     ans+= temp +" " + str[i] + "\n\n";
+                      temp++;
                  }
              }
              return ans;
